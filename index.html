@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Π.Μ.Ψ.Χ.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+
+        <p>Πέτρα, Μολύβι, Ψαλίδι, Χαρτί</p>
+        
+        <button onclick="
+        playGame('Πέτρα');" class="petra"> <img src="imgs/petra.jpg">
+            <p>Πέτρα</p>
+        </button>
+
+        <button class="molivi" onclick="
+        playGame('Μολύβι');">
+           <img src="imgs/molivi.jpg">
+           <p>Μολύβι</p>
+        </button>
+
+        <button class="psalidi" onclick="
+        playGame('Ψαλίδι');">
+           <img src="imgs/psalidi.jpg">
+           <p>Ψαλίδι</p>
+        </button>
+
+        <button class="xarti" onclick="
+        playGame('Χαρτί') ">
+            <img src="imgs/xarti.jpg">
+            <p>Χαρτί</p>
+        </button>
+
+         <div id="results"></div> 
+
+            <p id="results2">
+                Πέτρα: <span id="countPet">0</span>
+                Μολύβι: <span id="countMol">0</span>
+                Ψαλίδι: <span id="countPsa">0</span>
+                Χαρτί: <span id="countXar">0</span>
+
+            </p>
+
+            <div>
+                <img id="rps" src="imgs/rps.png">
+            </div>
+
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
