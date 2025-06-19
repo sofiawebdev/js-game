@@ -1,0 +1,57 @@
+body{
+    font-size: 20px;
+    background-image:url('friv.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container{
+	width:100%;
+    background-color: rgb(138, 43, 226, 0.5);
+	max-width:1200px;
+	margin:auto;
+	padding:10px;
+	color:#000000;
+    text-align: center;
+    color:antiquewhite;
+}
+
+button{
+    padding:20px;
+    margin: 56px;
+    border-radius: 90px;
+    background-color: #B39EB5;
+    color: white;
+    border: none;
+}
+
+button img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 80px;
+}
+
+img{
+    height: 120px;
+    position: sticky;
+    border-radius:80px ;
+}
+
+button:hover{
+    transform: scale(1.05);
+    background-color: #A288A6;
+    cursor: pointer;
+}
+
+#rps{
+    height: 300px;
+}
+
+#results, #results2{
+    max-width: initial;
+    background-color:#7209B7;
+    width: 400px;              
+    margin: 0 auto; 
+}
